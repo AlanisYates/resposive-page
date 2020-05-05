@@ -97,7 +97,7 @@ header {
 }
 
 .nav::before {
-  content: "";
+  content: '';
   position: fixed;
   top: 0;
   left: 0;
@@ -114,6 +114,15 @@ header {
   display: block;
 }
 
-.open .fa.bars {
+.open .fa-bars {
   display: none;
+}
+
+.open .nav-list {
+  transform: translateX(0);
+}
+
+.open .nav::before {
+  opacity: 1;
+  transform: scale(1);
 }
