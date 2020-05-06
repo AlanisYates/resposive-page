@@ -320,7 +320,7 @@ header {
 
 /* Tasteful Recipies */
 .tasteful-recipes {
-  background: url("./images/tasteful-recipes.jpg");
+  background: url("./images/tasteful-recipes.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -331,3 +331,20 @@ header {
 }
 
 /* Discover our Menu */
+.image-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.dicsover-out-menu .restaurant-desc {
+  padding-top: 3rem;
+  margin-bottom: 0;
+}
+
+/* The Prefect Blend  */
+.perfect-blend {
+  background: url(./images/perfect-blend.jpg) center no-repeat;
+  background-size: cover;
+}
+
